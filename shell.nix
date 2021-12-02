@@ -18,6 +18,9 @@ pkgs.mkShell {
     findlib
     utop
     merlin
+    ppx_sexp_conv
+    ppx_fields_conv
+    ppx_deriving
   ]);
   shellHook = ''
     alias utop="utop -init ${ocamlInit}"
