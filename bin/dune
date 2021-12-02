@@ -1,0 +1,11 @@
+(executable
+ (public_name day01_1)
+ (name day01_1)
+ (modules Day01_1)
+ (libraries advent core))
+
+(executable
+ (public_name day01_2)
+ (name day01_2)
+ (modules Day01_2)
+ (libraries advent core))
