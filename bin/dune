@@ -25,3 +25,19 @@
  (preprocess
   (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show))
  (libraries advent core))
+
+(executable
+ (public_name day03_1)
+ (name day03_1)
+ (modules Day03_1)
+ (preprocess
+  (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show))
+ (libraries advent core))
+
+(executable
+ (public_name day03_2)
+ (name day03_2)
+ (modules Day03_2)
+ (preprocess
+  (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show))
+ (libraries advent core))
