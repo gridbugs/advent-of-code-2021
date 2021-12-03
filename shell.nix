@@ -21,6 +21,7 @@ pkgs.mkShell {
     ppx_sexp_conv
     ppx_fields_conv
     ppx_deriving
+    ppx_expect
   ]);
   shellHook = ''
     alias utop="utop -init ${ocamlInit}"
