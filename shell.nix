@@ -15,6 +15,7 @@ pkgs.mkShell {
     ocamlformat
     core
     core_extended
+    re2
     findlib
     utop
     merlin
