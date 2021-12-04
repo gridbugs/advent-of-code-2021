@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 t() {
     day=$1
