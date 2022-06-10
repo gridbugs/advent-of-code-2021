@@ -78,3 +78,19 @@
  (preprocess
   (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show ppx_compare))
  (libraries advent core re2))
+
+(executable
+ (public_name day06_1)
+ (name day06_1)
+ (modules Day06_1)
+ (preprocess
+  (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show ppx_compare))
+ (libraries advent core re2))
+
+(executable
+ (public_name day06_2)
+ (name day06_2)
+ (modules Day06_2)
+ (preprocess
+  (pps ppx_sexp_conv ppx_fields_conv ppx_deriving.show ppx_compare))
+ (libraries advent core re2))
